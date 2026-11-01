@@ -1,11 +1,11 @@
 {
-  "name": "DigitalAvori ADHD Budget Planner",
-  "short_name": "ADHD Planner",
+  "name": "DigitalAvori ADHD Bloom Budget Planner",
+  "short_name": "Bloom Budget",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#fff5fa",
+  "theme_color": "#ab3468",
   "icons": [
     {
       "src": "icon-192.png",

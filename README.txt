@@ -1,17 +1,71 @@
-DigitalAvori ADHD Budget Planner — Final — Pink Edition
+DIGITALAVORI | ADHD BLOOM BUDGET PLANNER
+UPLOADED-PLANNER EDITION v5 | FULL
 
-Upload all files in this folder to the root of a separate GitHub Pages repository. Keep the filename index.html. Enable Pages for that branch/root, then open the HTTPS Pages URL. No build step is required.
+This is an enhancement of the planner files supplied in this request.
+It retains the supplied app rather than replacing it with the earlier rebuild.
 
-Final: full features, local autosave, backup/restore, CSV export and printing. First use offers fresh setup or sample data.
-Demo: sample data and temporary tab-session changes. Backup/restore remain restricted as in the original.
+UPLOAD TO GITHUB PAGES
+1. Before updating, download a JSON backup from your CURRENT planner Settings.
+2. Extract this ZIP. Upload all files inside it to your repository root.
+3. The main page must be named index.html, not index (1).html.
+4. Keep the same final repository, URL and path to preserve browser storage.
+5. Wait for Pages deployment, then refresh. If an old cached page remains,
+   refresh again after the service worker update. Keep your backup safe.
+6. Put the demo in a separate repository/path. Never overwrite the final app
+   with the demo. SOURCE ZIP is for your own editing, not a buyer download.
 
-Settings retains Dark and Light modes: deep pink and pink/white.
-Data is stored in this browser on this device; it does not sync across devices. Keep using the same URL. Browser data deletion/private browsing may remove it. Download backups from Settings regularly; restore them to transfer data. Existing older-product data is not automatically imported; use backup/restore if needed.
-Final offline use: first open the hosted page online and allow it to cache. Then the same page can reopen offline. Demo is intended for online preview.
+RETAINED TOOLS
+Today and daily allowance; editable quick spending; transaction history;
+checking balance snapshots; no-spend days; three small things; brain dump;
+full month calendar; day notes and monthly notes; variable bills; custom bill
+intervals; bill categories; income sources; envelopes; savings contributions
+and withdrawals; debt avalanche/snowball; charts/insights; milestones; screen
+renaming; command palette; focus mode; setup; print; full JSON backup/restore;
+full CSV export; original demo tab-session behavior and data restrictions.
 
-GitHub Pages URLs are publicly reachable; this package does not implement payment verification or access control. Deliver your final link to buyers yourself. Update the Etsy shop link in index.html if you need a specific listing link.
+ADDED TO THIS APP
+- Pink, Black, White and Blue themes in Settings.
+- Product name: ADHD Bloom Budget Planner.
+- Real interactive calendar on the RIGHT at desktop width >=1280px.
+- Selected-day bills, spending, logging, no-spend and notes in that dock.
+- Twelve right-edge month tabs for quick calendar navigation.
+- On narrower screens use The month; the original full calendar remains.
+- Annual overview, separate expected pay, category and bill actuals.
+- Purchase waiting list and weekly reset/reflections.
+- Net worth, outside assets/liabilities and monthly snapshots.
+- Subscription audit using existing bills; no duplicate expense.
+- Optional bill-to-debt links, reversible recorded principal adjustments.
+- 30-day cash rehearsal, without counting future income as current cash.
+- Clear country/currency labels, CA$ for Canada, and normal INR decimals.
+- Existing v1 backups are accepted; all added data is in full JSON backups.
 
-WHITE BACKGROUND UPDATE
-Page and sidebar backgrounds are white with dark outer text. Card, button and chart colors are preserved.
-For GitHub Pages: back up planner data, then replace files in the SAME repository and URL. Do not change the access path. Refresh after deployment.
-For a local copy: keep the same file location where possible, and export a JSON backup before replacing files.
+IMPORTANT USAGE
+Data is local to this browser/device. No bank connection or automatic sync.
+The full app uses the same supplied localStorage key/path; demo uses the same
+supplied sessionStorage key/path. Reset sample asks before replacing data.
+Currency changes relabel amounts; no foreign-exchange conversion occurs.
+A paid bill is already in the ledger: do not enter it as another purchase or
+another debt payment. Debt links adjust principal manually, not lender interest.
+Savings transfers in this supplied planner move money into/out of checking.
+Category caps are guides. Net worth includes cash and debts once; add only
+outside items. A forecast omits unknown future spending and is an estimate.
+The demo has no JSON backup/restore/CSV. It resets when the tab session ends.
+A public GitHub Pages address has no built-in buyer/payment verification.
+
+OFFLINE
+The HTML includes the supplied runtime and font assets without CDN downloads.
+Hosted final: open online first and let its cache install before using offline.
+Local desktop: open index.html in a modern browser with JavaScript; test saving
+and JSON backup first because local-file persistence varies by browser.
+Phones work best with the hosted HTTPS page. Mobile file viewers may not run HTML.
+
+VALIDATION
+282 automated checks: all 29 supplied Component methods and all 11 supplied
+screens retained; date/recurrence/pay/debt regression; single bill deductions;
+linked debt reversal; future-income handling; backup state; theme/runtime checks.
+Browser QA: original and new screens, calendar day note, four themes, precise
+spending, purchase recorded once, snapshot/annual tables, JSON backup/restore,
+mobile-width layout and demo backup gating. Physical iOS/Android and direct
+file:// execution have not been tested in this environment.
+
+Support: contact DigitalAvori through the original order.
